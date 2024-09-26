@@ -4,11 +4,16 @@ body{
     color: white;
 }
 
+main{
+    width: 50%;
+    margin: auto;
+    
+}
+
 main > :nth-child(1){
-    background-color: blue;
-    height: 500px;
+    background-color: red;
 }
 
 main > :nth-child(1) > div{
-    background-color: blueviolet;
+    background-color: blue;
 }
