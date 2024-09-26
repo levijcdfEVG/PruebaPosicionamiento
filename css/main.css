@@ -1,0 +1,14 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+main > :nth-child(1){
+    background-color: blue;
+    height: 500px;
+}
+
+main > :nth-child(1) > div{
+    background-color: blueviolet;
+}
